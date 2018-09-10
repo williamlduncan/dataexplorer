@@ -1,0 +1,17 @@
+Two-sample Wilcoxon rank-sum (Mann-Whitney) test
+
+ elite_dummy |      obs    rank sum    expected
+-------------+---------------------------------
+           0 |       31        1470        1023
+           1 |       34         675        1122
+-------------+---------------------------------
+    combined |       65        2145        2145
+
+unadjusted variance     5797.00
+adjustment for ties       -8.49
+                     ----------
+adjusted variance       5788.51
+
+Ho: rank(elite_~y==0) = rank(elite_~y==1)
+             z =   5.875
+    Prob > |z| =   0.0000
